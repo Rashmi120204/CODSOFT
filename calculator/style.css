@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Edu NSW ACT Cursive", cursive;
+}
+html,body{
+    height:100%;
+}
+body{
+    width:100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg, #4c638d, #4d535e) ;
+}
+.container{
+    border:3px solid rgb(255, 170, 184);
+    padding: 40px;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    border-radius: 20px;
+    transform: scale(0.8);
+}
+input{
+    width:320px;
+    border: none;
+    padding:24px;
+    margin:10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
+    text-align: right;
+    cursor:pointer;
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: 300;
+}
+input::placeholder{
+    color:#c2c4c7;
+}
+
+button{
+    border: none;
+    width:60px;
+    height:60px;
+    margin:10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.1), 4px 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.operator{
+    color:rgb(255, 170, 184);
+}
+.eq{
+    background-color: rgb(222, 224, 145);
+}
+button:hover{
+    color:rgb(255, 170, 184);
+    box-shadow: 0px 0px 10px rgba(255, 170, 184, 0.7); 
+}
